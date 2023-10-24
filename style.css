@@ -32,10 +32,11 @@ img{
 
 .hero-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 85%;
     background-color: #1F2937;
     color: #F9FAF8;
+    gap: 30px;
 }
 .hero-wrapper{
     background-color: #1F2937;
@@ -54,7 +55,7 @@ img{
 }
 .hero-img{
     flex-basis: 35%;
-    flex-grow: .5;
+    flex-grow: .1;
 }
 .button{
     background-color: #3882F6;
@@ -125,7 +126,7 @@ img{
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    flex-basis: 85%;
+    flex-basis: 70%;
     margin: 50px 0 30px 0;
     border-radius: 0.3em;
     color: #F9FAF8;
