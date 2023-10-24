@@ -70,12 +70,18 @@ img{
     flex-direction: column;
     align-items: center;
 }
+.information-wrapper h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
 .information-section{
     display: flex;
     justify-content: space-evenly;
+    width: 85%;
 }
 .information-bracket{
-    flex-basis: 180px;
+    flex-basis: 150px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -91,17 +97,22 @@ img{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 85%;
+    width: 70%;
     margin: auto;
+    font-size: 36px;
+}
+.quote-wrapper{
+    background-color: #E5E7EB;
 }
 .quote-section p{
     font-style: italic;
-    font-size: 1.2em;
     margin-bottom: 0;
+    color: #1F2937;
 }
 .quote-section h5{
-    margin-top: 0;
+    margin: 0;
     align-self: flex-end;
+    font-size: 0.7em;
 }
 
 .call-section{
@@ -115,15 +126,35 @@ img{
     align-items: center;
     background-color: #3882F6;
     flex-basis: 85%;
+    margin: 50px 0 30px 0;
+    border-radius: 0.3em;
+    color: #F9FAF8;
+    padding: 20px 0;
+}
+.call-bracket div h4{
+    margin-bottom: 10px;
+}
+.call-bracket div p{
+    margin-top: 10px;
+}
+.call-bracket a{
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #F9FAF8;
+    padding: 5px 15px;
+    border-radius: 0.5em;
 }
 
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 0;
 }
 
 .section{
     margin: 0 auto;
-    padding: 30px 0 80px 0;
+    padding: 40px 0 80px 0;
 }
